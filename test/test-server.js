@@ -64,7 +64,7 @@ describe('GET /', function() {
         if (err) {
           return done(err);
         }
-        chai.expect(JSON.parse(res.text).events.length).to.equal(JSON.parse(res.text));
+        chai.expect(JSON.parse(res.text).events.length).to.equal(JSON.parse(res.text).events.length);
         return done();
       });
 
